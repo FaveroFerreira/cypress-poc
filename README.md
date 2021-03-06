@@ -42,7 +42,7 @@ Cucumber √© uma ferramenta utilizada para BDD, com ela conseguimos criar descri√
 $ npm install cypress-cucumber-preprocessor --save-dev
 ```
 
-Agora precisamos configurar o cucumber como plugin do Cypress, para isso, iremos adicionar o seguinte treixo em ``/plugins/index.js``
+Agora precisamos configurar o cucumber como plugin do Cypress, para isso, iremos adicionar o seguinte treixo em ``/cypress/plugins/index.js``
 ```
 const cucumber = require('cypress-cucumber-preprocessor').default
 
