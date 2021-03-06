@@ -1,0 +1,19 @@
+{
+  "name": "cypress-poc",
+  "version": "1.0.0",
+  "description": "Demo do uso de cypress para o teste automatizado de interfaces e APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaveroFerreira/cypress-poc.git"
+  },
+  "author": "Guilherme Favero Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaveroFerreira/cypress-poc/issues"
+  },
+  "homepage": "https://github.com/FaveroFerreira/cypress-poc#readme"
+}
