@@ -7,15 +7,16 @@ Then(/^desejo fazer login$/, () => {
 	return true;
 });
 
-When(/^preencher o campo usuário com "([^"]*)"$/, (args1) => {
-	console.log(args1);
+When(/^preencher o campo usuário com "([^"]*)"$/, (usuario) => {
+	cy.get('input[name=username]').type(usuario);
 });
 
-When(/^o campo senha com "([^"]*)"$/, (args1) => {
-	console.log(args1);
+When(/^o campo senha com "([^"]*)"$/, (password) => {
+	cy.get('input[name=password]').type(password);
 });
 
 When(/^clicar em login$/, () => {
+    cy.get('#login-form').submit();
 });
 
 Then(/^devo ir para página de leiões estando logado$/, () => {
