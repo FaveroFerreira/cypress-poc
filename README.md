@@ -30,6 +30,11 @@ Agora, vamos facilitar nossa vida, adicione o seguinte script no package.json:
 }
 ```
 
+Por ultimo, só precisamos rodar o Cypress para que ele crie toda a estrutura de pastas inicial
+```
+$ npm run cypress:open
+```
+
 ## Cucumber
 
 Cucumber é uma ferramenta utilizada para BDD, com ela conseguimos criar descrições funcionais para os testes *em linguagem natural*. Para utilizar o Cucumber precisamos rodar:
