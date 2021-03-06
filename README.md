@@ -1,5 +1,9 @@
 # Testes automatizados utilizando Cypress
 
+Este é um projeto exemplo/tutorial para o setup e utilização do Cypress com Cucumber para testes automatizados end-2-end.
+
+Com o Cucumber podemos utilizar o poder do Cypress para realizar testes end-2-end de interfaces e APIs com descrições e linguagem natural, que possa ser compreendida por pessoas de negócio.
+
 ## Setup Node
 
 Crie uma pasta para o projeto:
