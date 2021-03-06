@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/FaveroFerreira/cypress-poc/issues"
   },
-  "homepage": "https://github.com/FaveroFerreira/cypress-poc#readme"
+  "homepage": "https://github.com/FaveroFerreira/cypress-poc#readme",
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  }
 }
