@@ -20,4 +20,5 @@ When(/^clicar em login$/, () => {
 });
 
 Then(/^devo ir para página de leiões estando logado$/, () => {
+	cy.url().as('url').should('include', '/leiloes')
 });
