@@ -2,13 +2,20 @@
 
 Funcionalidade: Login
 
-    Como usuário, desejo acessar a minha conta
-    Para que eu possa fazer postagens e visualizar posts de minhas conexões
+    Como colaborador do banco original, desejo acessar a minha conta
+    Para que eu possa estudar as trilhas e cursos obrigatórios
 
 Cenario: Login com credenciais válidas
-    Dado que eu visite o site "http://localhost:8080/login"
-    E desejo fazer login
-    Quando preencher o campo usuário com "ciclano"
-    E o campo senha com "pass"
-    E clicar em login
+    Dado que eu visite o site "original.treina.com.br"
+    E deseje fazer login
+    Quando preencher o campo login com ""
+    E o campo senha com ""
+    Quando clicar em login
     Entao devo ir para página de leiões estando logado
+
+Cenario: Login com credenciais inválidas
+    Dado que eu visite o site "original.treina.com.br"
+    Quando preencher o campo login com ""
+    E o campo senha com ""
+    Quando clicar em login
+    Entao devo verificar uma mensagem de erro
