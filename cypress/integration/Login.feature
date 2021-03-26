@@ -11,7 +11,7 @@ Cenario: Login com credenciais válidas
     Quando preencher o campo login com ""
     E o campo senha com ""
     Quando clicar em login
-    Entao devo ir para página de leiões estando logado
+    Entao devo ir para página treinamentos
 
 Cenario: Login com credenciais inválidas
     Dado que eu visite o site "original.treina.com.br"
